@@ -1,0 +1,14 @@
+Category	                  Best Choice (Usually)	                          Why
+Compute (VMs)	            Tie (AWS EC2 = Azure VM)	               Both are mature and reliable.
+Containers (Kubernetes)   	Azure AKS                            	Easier integration with Microsoft stack; less setup than EKS.
+Serverless (Functions)	    AWS Lambda	                          More mature ecosystem, more integrations.
+Databases (SQL Server)	Azure SQL Database	                      Microsoft-native, best SQL Server support.
+Databases (Open Source)	AWS RDS/Aurora	                          Better for MySQL, PostgreSQL, MariaDB.
+NoSQL	                  Azure Cosmos DB (multi-model) / AWS DynamoDB 
+                        (low-latency, scalable)	                  If multi-model → Cosmos; if high throughput → DynamoDB.
+Storage (Object)	         AWS S3	                                 Industry standard, most integrations.
+Storage (Windows File Shares)	Azure Files	                         Seamless with Windows ecosystem.
+Networking/Hybrid      	Azure (ExpressRoute + AD)	                 Best for enterprises already using AD.
+Global Reach	             AWS	                                  Largest number of regions & edge locations.
+Monitoring	           Tie (CloudWatch = Azure Monitor)	           Similar capabilities.
+Migration Tools         Azure Migrate (VMware/Hyper-V focus) / AWS MGN (lift & shift simplicity)	If VMware-heavy → Azure; if general VMs → AWS.
