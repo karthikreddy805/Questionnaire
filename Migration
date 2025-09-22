@@ -1,0 +1,76 @@
+1. Replatform (a.k.a. "Lift, Tinker, and Shift")
+✅ Definition
+
+Move the application to the cloud with slight optimizations.
+
+No major code changes, but some adjustments to leverage cloud-native services.
+
+🔧 Examples
+
+Moving a database from on-prem Oracle to Amazon RDS (instead of running Oracle on EC2).
+
+Migrating an app from a VM to a PaaS service (like Azure App Service or AWS Elastic Beanstalk).
+
+Replacing local caching with ElastiCache (AWS) or Azure Cache for Redis.
+
+📌 When to Use
+
+The app works fine but can benefit from managed services.
+
+You want lower operational overhead (don’t want to manage patching/backup manually).
+
+You don’t have time/resources to fully refactor the app.
+
+🎯 Benefits
+
+Lower cost than lift & shift (because of optimized services).
+
+Less maintenance (cloud provider manages updates, scaling, HA).
+
+Faster than full refactor.
+
+⚠️ Challenges
+
+Still some dependency on legacy design.
+
+Might require minor app configuration/code changes.
+
+
+2. Repurchase (a.k.a. "Drop and Shop")
+✅ Definition
+
+Replace the existing application with a cloud-based SaaS solution.
+
+Instead of migrating, you buy a new product that provides the same or better functionality.
+
+🔧 Examples
+
+Replace on-prem CRM with Salesforce.
+
+Replace custom HR/payroll system with Workday.
+
+Replace on-prem email with Office 365 / Google Workspace.
+
+📌 When to Use
+
+Current system is outdated, costly, or difficult to maintain.
+
+A modern SaaS product offers better features.
+
+The business is open to adopting a new workflow/process.
+
+🎯 Benefits
+
+No need to maintain infrastructure or do heavy migration.
+
+Quick adoption with minimal technical complexity.
+
+Often cheaper than replatforming/refactoring.
+
+⚠️ Challenges
+
+Business process changes → users need training.
+
+Vendor lock-in (dependent on SaaS provider).
+
+Possible data migration & compliance concerns.
