@@ -1,0 +1,42 @@
+This questionnaire is designed to gather key information about on-premises applications. It helps in understanding the current environment, identifying risks, and planning for cloud migration, modernization, compliance, or disaster recovery.
+1. General Information
+•	What is the application name and business purpose?
+•	Who owns this application (business & technical owner)?
+•	What teams use it most?
+2. Infrastructure Details
+•	On what servers/VMs does it run (OS, version, hardware specs)?
+•	Is it physical, VM, or running on a hypervisor (VMware, Hyper-V, etc.)?
+•	What database does it use (SQL Server, Oracle, MySQL, etc.)?
+•	How much CPU, memory, and storage are currently allocated?
+3. Application Architecture
+•	Is it monolithic or microservices-based?
+•	Which programming languages/frameworks are used?
+•	Does it depend on middleware (e.g., WebSphere, Tomcat, IIS)?
+•	Any APIs exposed/consumed?
+4. Dependencies
+•	What other applications or systems does it integrate with?
+•	Are there batch jobs, schedulers, or ETL pipelines?
+•	Does it rely on shared storage, NAS, or SAN?
+5. Security & Compliance
+•	How is authentication handled (AD, LDAP, SSO, custom)?
+•	Are patches and updates applied regularly?
+•	What compliance standards apply (GDPR, HIPAA, PCI, etc.)?
+•	Who has admin access to the servers?
+6. Backup & DR
+•	How is the application backed up? Frequency?
+•	Is there a disaster recovery plan? Recovery Point Objective (RPO) & Recovery Time Objective (RTO)?
+•	Are there secondary sites or failover mechanisms?
+7. Monitoring & Logging
+•	What monitoring tools are in place (Nagios, Zabbix, Datadog, etc.)?
+•	Is logging centralized (Splunk, ELK, CloudWatch-like tool)?
+•	How are incidents reported and resolved?
+8. Performance & Scalability
+•	What is the average and peak load (users, transactions)?
+•	Can the app scale horizontally (add more servers) or only vertically (bigger servers)?
+•	Any known performance bottlenecks?
+9. Licensing & Cost
+•	Does the app require commercial licenses (Oracle, Windows Server, etc.)?
+•	What is the current annual cost of running it on-prem?
+10. Future Planning
+•	Is the app planned for cloud migration, containerization, or retirement?
+•	What improvements are desired by stakeholders?
